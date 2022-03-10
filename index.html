@@ -4,33 +4,90 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>Carlos' Homepage</title>
-    
-    <style>
-      body {
-        box-sizing: border-box;
-        min-width: 200px;
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 45px;
-      }
-h1, p {
-  text-align: center;
-}
-<style>
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <article>
-      <p>
-        <h1>Juan Carlos Castro</h1></p>
-        <img src="juancarlos.jpg">
-      </p>
 
-      <h3>No comments.</h3>
-</article>
+    <header>
+       <h1>Título importante nivel 1</h1>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="#">Enlace 1</a></li>
+          <li><a href="#">Enlace 2</a></li>
+             <li><a href="#">Enlace 3</a></li>
+        </ul>
+     </nav>
+
+    <main>
+
+            <article>
+              <h2>Título del artículo nivel 2</h2>
+              <p>Párrafo del artículo</p>
+
+                <section>
+                  <h3>Título sección 1 nivel 3</h3>
+                  <p>Párrafo de la sección 1.</p>
+
+                  <form action="server">
+                        <p>
+                 Formulario:<br>
+                 <input type="checkbox" name="opcion1"> Opción1<br>
+                 <input type="checkbox" name="opcion2"> Opción2<br>
+                 <input type="checkbox" name="opcion3"> Opción 3
+                        </p>
+                        <p><input type="submit" value="Enviar"></p>
+                     </form>
+
+                </section><br>
+
+                  <section>
+
+                     <h3>Titulo sección 2 nivel 3</h3>
+                    <p>Párrafo de la sección 2.</p>
+
+                       <h3>Tabla</h3>
+
+                   <table class="default">
+                          <tr>
+                   <td>Celda 1</td>
+                   <td>Celda 2</td>
+                   <td>Celda 3</td>
+                          </tr>
+                          <tr>
+                   <td>Celda 4</td>
+                   <td>Celda 5</td>
+                   <td>Celda 6</td>
+                          </tr>
+                        </table><br>
+
+                    </section>
+
+            </article>
 
 
+            <aside>
+               <h2> Título nivel 2</h2>
 
+               <ul>
+                 <li><a href="#">Enlace 1</a></li>
+                 <li><a href="#">Enlace 2</a></li>
+               </ul><br>
 
-</body></html>
+               <figure>
+                      <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" alt="Logo Wikipedia">
+                  <figcaption>Título imagen</figcaption>
+              </figure>
+       
+            </aside>
+
+    </main>
+
+    <footer>
+            <p>© Aquí van derechos de autor.</p>
+    </footer>
+
+</body>
+</html>
+
