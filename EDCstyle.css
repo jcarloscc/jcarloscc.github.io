@@ -1,0 +1,348 @@
+ /*NO BORRAR */ 
+:root {
+  --cdmx-blue: #0d6efd;
+  --cdmx-indigo: #6610f2;
+  --cdmx-purple: #6f42c1;
+  --cdmx-pink: #d63384;
+  --cdmx-red: #dc3545;
+  --cdmx-orange: #fd7e14;
+  --cdmx-yellow: #ffc107;
+  --cdmx-green: #198754;
+  --cdmx-teal: #20c997;
+  --cdmx-cyan: #0dcaf0;
+  --cdmx-white: #fff;
+  --cdmx-gray: #6c757d;
+  --cdmx-gray-dark: #343a40;
+  --cdmx-gray-100: #f8f9fa;
+  --cdmx-gray-200: #e9ecef;
+  --cdmx-gray-300: #dee2e6;
+  --cdmx-gray-400: #ced4da;
+  --cdmx-gray-500: #adb5bd;
+  --cdmx-gray-600: #6c757d;
+  --cdmx-gray-700: #495057;
+  --cdmx-gray-800: #343a40;
+  --cdmx-gray-900: #212529;
+  --cdmx-primary: #9f2240;
+  --cdmx-secondary: #175e50;
+  --cdmx-success: #198754;
+  --cdmx-info: #2d3748;
+  --cdmx-warning: #ffd540;
+  --cdmx-danger: #dc3545;
+  --cdmx-light: #f4f6f8;
+  --cdmx-dark: #1a1a1a;
+  --cdmx-primary-rgb: 159, 34, 64;
+  --cdmx-secondary-rgb: 23, 94, 80;
+  --cdmx-success-rgb: 25, 135, 84;
+  --cdmx-info-rgb: 45, 55, 72;
+  --cdmx-warning-rgb: 255, 213, 64;
+  --cdmx-danger-rgb: 220, 53, 69;
+  --cdmx-light-rgb: 244, 246, 248;
+  --cdmx-dark-rgb: 26, 26, 26;
+  --cdmx-white-rgb: 255, 255, 255;
+  --cdmx-black-rgb: 0, 0, 0;
+  --cdmx-body-color-rgb: 100, 109, 108;
+  --cdmx-body-bg-rgb: 255, 255, 255;
+  --cdmx-font-sans-serif: "Inter-Var", system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --cdmx-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --cdmx-gradient: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 0.15),
+    hsla(0, 0%, 100%, 0)
+  );
+  --cdmx-body-font-family: var(--cdmx-font-sans-serif);
+  --cdmx-body-font-size: 1rem;
+  --cdmx-body-font-weight: 400;
+  --cdmx-body-line-height: 1.5;
+  --cdmx-body-color: #646d6c;
+  --cdmx-body-bg: #fff;
+}
+
+ /* NO BORRAR 22*/ 
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+ /* NO BORRAR 22*/ 
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: var(--cdmx-body-bg);
+  color: var(--cdmx-body-color);
+  font-family: var(--cdmx-body-font-family);
+  font-size: var(--cdmx-body-font-size);
+  font-weight: var(--cdmx-body-font-weight);
+  line-height: var(--cdmx-body-line-height);
+  margin: 0;
+  text-align: var(--cdmx-body-text-align);
+}
+
+
+/*NO BORRAR 22*/
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+
+/*NO BORRAR 22*/
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+/*NO BORRAR 22*/
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+/*NO BORRAR 22*/
+p {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+/*NO BORRAR 22*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+
+/*NO BORRAR 22*/ 
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--cdmx-gutter-x, 0.75rem);
+  padding-right: var(--cdmx-gutter-x, 0.75rem);
+  width: 100%;
+}
+
+
+/*NO BORRAR 22*/
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+
+
+/*NO BORRAR 22*/
+.header_top {
+  border: 1px solid hsla(0, 0%, 66%, 0.5);
+  box-shadow: 0 1.5px 1.5px hsla(210, 3%, 89%, 0.3);
+  padding-bottom: 0.9rem;
+  padding-top: 0.9rem;
+}
+
+
+/*NO BORRAR 22*/
+@media (max-width: 479.98px) {
+  .header_top {
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+  }
+  
+  
+/*NO BORRAR 22*/
+  .header_top > div {
+    text-align: center;
+  }
+}
+
+
+/*NO BORRAR 22*/
+
+.header_bottom {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+}
+
+
+/*NO BORRAR 22*/
+
+.header_nav a {
+  color: #104c42;
+  font-weight: 500;
+  padding: 0 0.25rem;
+}
+
+
+/*NO BORRAR 22*/
+.header_nav a:not(:hover) {
+  text-decoration: none;
+}
+
+
+/*NO BORRAR 22*/
+.header_nav a + a {
+  margin-left: 1.25rem;
+}
+
+
+ /* NO BORRAR 22*/ 
+.hero {
+  background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg)
+    50% / cover no-repeat hsla(0, 0%, 93%, 0.8);
+  margin-bottom: 1.25rem;
+}
+
+
+/*NO BORRAR 22*/
+
+.hero_background {
+  background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg) 50% / cover no-repeat;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+
+/*NO BORRAR 22*/
+
+.hero_title {
+  color: #fff;
+  display: grid;
+  grid-template: repeat(4, auto) / repeat(2, 5ch) 16.5ch;
+  margin-bottom: 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+
+/*NO BORRAR 22*/
+
+@media (min-width: 768px) {
+  .hero_title {
+    padding-left: 3.5rem;
+  }
+
+  
+  
+  /*NO BORRAR 22*/
+  .hero_title:before {
+    background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg)
+      50% / contain no-repeat;
+    content: "";
+    height: 4.188rem;
+    left: 0;
+    position: absolute;
+    top: -0.25rem;
+    width: 2.063rem;
+  }
+}
+
+
+
+/*NO BORRAR 22*/
+@media (max-width: 479.98px) {
+  .hero_title {
+    grid-template-columns: 16% 19% 65%;
+  }
+
+  
+  /*NO BORRAR 22*/
+  .hero_title span {
+    font-size: 1.0625rem;
+  }
+}
+
+
+ /*NO BORRAR 22*/
+.hero_title span:first-child {
+  grid-column: 1/4;
+}
+
+
+
+/*NO BORRAR22*/
+
+.hero_title span:nth-child(2) {
+  grid-column: 2/3;
+  padding-right: 0.2em;
+  text-align: right;
+}
+
+
+
+/*NO BORRAR22*/
+
+.hero_title span:last-child,
+.hero_title span:nth-child(3) {
+  grid-column: 3/4;
+}
+
+
+
+/*NO BORRAR 22*/
+
+.hero_title span:nth-child(3) {
+  font-family: var(--cdmx-body-font-family);
+  font-size: calc(1.625rem + 4.5vw);
+  font-variation-settings: "wght" 700;
+  grid-row: 2/4;
+  line-height: 1;
+  margin-top: -0.1em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  word-spacing: -20px;
+}
+
+
+
+/*NO BORRAR 22*/
+@media (min-width: 1200px) {
+  .hero_title span:nth-child(3) {
+    font-size: 4rem;
+  }
+}
+
+
+
+/*NO BOBRRAR 22*/
+.body_title {
+  color: #b08f5c;
+  font-size: calc(1.28125rem + 0.375vw);
+  font-variation-settings: "wght" 700;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+
+
+/*NO BORRAR 22*/
+.body_excerpt {
+  font-size: 1.0625rem;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+
+/*NO BORRAR*/
+
+.body_excerpt strong {
+  display: block;
+}
