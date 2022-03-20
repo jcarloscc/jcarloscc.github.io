@@ -1,93 +1,98 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>Carlos' Homepage</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="es-MX">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Artesanias Mexicanas</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="img/logo3.png" alt="Maya icon" />
+          </a>
+        </div>
 
-    <header>
-       <h1>Título importante nivel 1</h1>
-    </header>
-
-    <nav>
-        <ul>
-          <li><a href="#">Enlace 1</a></li>
-          <li><a href="#">Enlace 2</a></li>
-             <li><a href="#">Enlace 3</a></li>
+        <ul class="navbar-nav-left">
+          <li>
+            <a href="#">Arte</a>
+          </li>
+          <li>
+            <a href="#">Colecciones</a>
+          </li>
+          <li>
+            <a href="#">Conócenos</a>
+          </li>
         </ul>
-     </nav>
 
-    <main>
-
-            <article>
-              <h2>Título del artículo nivel 2</h2>
-              <p>Párrafo del artículo</p>
-
-                <section>
-                  <h3>Título sección 1 nivel 3</h3>
-                  <p>Párrafo de la sección 1.</p>
-
-                  <form action="server">
-                        <p>
-                 Formulario:<br>
-                 <input type="checkbox" name="opcion1"> Opción1<br>
-                 <input type="checkbox" name="opcion2"> Opción2<br>
-                 <input type="checkbox" name="opcion3"> Opción 3
-                        </p>
-                        <p><input type="submit" value="Enviar"></p>
-                     </form>
-
-                </section><br>
-
-                  <section>
-
-                     <h3>Titulo sección 2 nivel 3</h3>
-                    <p>Párrafo de la sección 2.</p>
-
-                       <h3>Tabla</h3>
-
-                   <table class="default">
-                          <tr>
-                   <td>Celda 1</td>
-                   <td>Celda 2</td>
-                   <td>Celda 3</td>
-                          </tr>
-                          <tr>
-                   <td>Celda 4</td>
-                   <td>Celda 5</td>
-                   <td>Celda 6</td>
-                          </tr>
-                        </table><br>
-
-                    </section>
-
-            </article>
+        <ul class="navbar-nav-right">
+          <li><button class="btn btn-dark-outline">Inicia sesión</button></li>
+          <li><button class="btn btn-dark">Regístrate</button></li>
+        </ul>
+        
+      </div>
+    </nav>
 
 
-            <aside>
-               <h2> Título nivel 2</h2>
+    <!-- Box A -->
+    <section class="box box-a bg-primary text-center py-md">
+      <div class="box-inner">
+        <h2 class="text-xl">Una experiencia totalmente nueva en el arte</h2>
+        <p class="text-md">
+          Una tradición milenaria nos ha acompañado a través de todo este tiempo.
+          <a href="#"> Aprende más...</a>
+        </p>
+      </div>
+    </section>
 
-               <ul>
-                 <li><a href="#">Enlace 1</a></li>
-                 <li><a href="#">Enlace 2</a></li>
-               </ul><br>
+    <!-- Box B -->
+    <section class="box box-b bg-secondary grid-col-2">
+      <img src="https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/02/alebrijes-en-oaxaca-940x626.jpg" alt="" />
+      <div class="box-text">
+        <h2 class="text-xl">Alebrijes mexicanos</h2>
+        <p class="text-md">
+          Tallados en madera cumplen con las más altas exigencias en diseño.
+        </p>
+        <a href="#" class="btn btn-light-outline">Has tu pedido</a>
+      </div>
+    </section>
 
-               <figure>
-                      <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" alt="Logo Wikipedia">
-                  <figcaption>Título imagen</figcaption>
-              </figure>
-       
-            </aside>
-
-    </main>
-
-    <footer>
-            <p>© Aquí van derechos de autor.</p>
+    <!-- Box C -->
+    <section class="box box-c bg-secondary grid-col-2 grid-reversed">
+      <img src="https://jacoboymariaangeles.com/wp-content/uploads/2021/07/a3.jpg" alt="" />
+      <div class="box-text">
+        <h2 class="text-xl">Creatividad e Imaginación</h2>
+        <p class="text-md">
+          Un sueño hecho realidad.
+        </p>
+        <a href="#" class="btn btn-light-outline">Has tu pedido</a>
+      </div>
+    </section>
+    <div class="divider"></div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social">
+          <a href="https://spotify.com">
+            <img src="./img/social-spotify.svg" alt="" />
+          </a>
+          <a href="https://facebook.com">
+            <img src="./img/social-facebook.svg" alt="" />
+          </a>
+          <a href="https://pinterest.com">
+            <img src="./img/social-pinterest.svg" alt="" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="./img/social-instagram.svg" alt="" />
+          </a>
+          <a href="https://youtube.com">
+            <img src="./img/social-youtube.svg" alt="" />
+          </a>
+          <a href="https://twitter.com">
+            <img src="./img/social-twitter.svg" alt="" />
+          </a>
+        </div>
+        <p>© 2022 Todos los derechos reservados al arte popular.</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
-
